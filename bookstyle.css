@@ -1,0 +1,231 @@
+html{
+    size-adjust:calc();
+    stroke-width: 0%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:black;  
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:lime;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    font-family: Cooper;
+}
+
+.navbar-title {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    padding: 20px;
+}
+
+.book-container {
+    background-color: black;
+    border: 3px solid lime;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor:auto;
+    color: lime;
+}
+.book-container h2{
+    color: lime;
+    font-family: Times New Roman;
+    border-bottom: black solid 4px;
+    display: inline;
+}
+
+.book-container h4{
+    color: white;
+}
+
+.popup-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 2;
+    
+}
+
+.popup-box {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lime;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    z-index: 2;
+    width: 300px;
+    max-width: 80%;
+    cursor: auto;
+}
+
+.popup-box h2 {
+    margin-top: 0;
+}
+
+.book-container p{
+    color:lime;
+}
+
+.popup-box input,
+.popup-box textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: black;
+    color: lime;
+}
+
+
+#book-form button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+#book-form input{
+    background-color: black;
+    color: lime;
+    place-content: black;
+    border: none;
+}
+
+#confirmation-popup-box button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+#book-description-input{
+    background-color: black;
+    color: lime;
+    place-content: black;
+    border: none;
+}
+
+.popup-box textarea{
+    background-color: lime;
+}
+
+.popup-box button {
+    margin: 5px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: lime;
+}
+
+#add-book {
+    background-color: black;
+    color: lime;
+}
+
+#cancel-popup {
+    background-color: black;
+    color: lime;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 140px;
+    right: 50px;
+    background-color: lime;
+    color: black;
+    border: black solid 3px;
+    margin:10px;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.add-button :hover{
+    background-color: white;
+    color: black;
+}
+
+.delete-button {
+    background: lime;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.delete-button:hover {
+    background-color:white ;
+    color: black;
+}
+
+#book-form input{
+    background-color: white;
+    color: black;
+}
+
+.confirm-button {
+    background-color: lime;
+    color: black;
+    margin-right: 10px;
+}
+
+.cancel-confirm-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.confirm-button, .cancel-confirm-button {
+    margin: 10px 5px 0 0;
+}
+
+a{
+    color: rgb(9, 150, 231);
+}
+
+a:hover{
+    color: red;
+}
+
+footer{
+    background-color: lime;
+}
+
+#zzz{
+    color:rgb(9, 150, 231);
+}
+
+
+#zzz:hover{
+    color: red;
+    text-shadow: #dcd135;
+}
+
+footer a{
+    color: red;
+}
+
+footer a:hover{
+    color: black;
+}
